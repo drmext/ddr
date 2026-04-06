@@ -1,4 +1,4 @@
-# DDR ARCADE
+# DDR/IIDX ARCADE
 
 ## Decryption
 [drmfs](https://github.com/YoshihikoAbe/eapki)
@@ -10,12 +10,12 @@
 ## Loader / IO Emulation
 [spice2x](https://github.com/spice2x/spice2x.github.io)
 
-[bemanitools 5](https://github.com/djhackersdev/bemanitools)
+[Bemanitools 5](https://github.com/djhackersdev/bemanitools)
 
 ## Server Emulation
 [MonkeyBusiness](https://github.com/drmext/MonkeyBusiness)
 
-[Asphyxia](https://github.com/asphyxia-core/core) [+ ddr plugin](https://github.com/22vv0/asphyxia_plugins/tree/mdx)
+[Asphyxia](https://github.com/asphyxia-core/core) [+ ddr plugin](https://github.com/22vv0/asphyxia_plugins/tree/mdx) [+ iidx plugin](https://github.com/duel0213/asphyxia-plugins/tree/stable)
 
 [bemaniutils](https://github.com/DragonMinded/bemaniutils)
 
@@ -24,7 +24,7 @@
 
 [Original BemaniPatcher](https://github.com/mon/BemaniPatcher)
 
-## Modding Converters
+## Modding DDR
 [arc](https://github.com/mon/ddr_arc_extract)
 
 [ifs](https://github.com/mon/ifstools)
@@ -54,3 +54,12 @@ to find the index order, run vgmstream-cli.exe bgm_menu.xwb -i -w -o ?n -S 0 -m 
 File -> Build (F7)
 this output bgm_menu.xwb should play in game
 ```
+
+## Modding IIDX
+[mdb](https://github.com/drmext/iidx-datatools)
+
+[s3p](https://github.com/mon/s3p_extract)
+
+[omnifix](https://github.com/aixxe/omnifix)
+
+[2dx-gsm](https://github.com/aixxe/2dx-gsm)
