@@ -1,0 +1,24 @@
+https://www.microsoft.com/en-us/download/details.aspx?id=8109
+https://files2.codecguide.com/K-Lite_Codec_Pack_1794_Basic.exe
+https://github.com/abbodi1406/vcredist/releases
+https://www.python.org/downloads/
+https://github.com/spice2x/spice2x.github.io/releases
+https://github.com/drmext/MonkeyBusiness
+
+
+copy MDX/ and MonkeyBusiness/ to wherever
+install dependencies from first 3 links 
+  directx_Jun2010_redist.exe - extract to folder, run DXSETUP.exe, delete folder
+  K-Lite_Codec_Pack_1794_Basic.exe - decline third-party addons and auto-updates (GF only)
+  VisualCppRedist_AIO_x86_x64_103.zip - extract exe and run
+install Python with "Add python.exe to PATH" checked
+if on windows 11, press Winkey+I, search "App execution aliases", disable both python.exe and python3.exe
+in MB folder, run make_venv_portable.bat if transferring venv to new PC or MB folder is ever moved
+in startspice.bat, edit "set SERVER_FOLDER=" to MB path, (and edit powercfg lines `powercfg /list`), edit "set LAUNCHER=spice64.exe" to to spice.exe if using 32bit data
+
+spicecfg.exe to set keybinds, cards, patches. press f4 in game to modify patches
+close game with alt+f4, and press any key in the cmd window to force quit everything else
+
+
+
+copy spice2x/ and spicetools.xml from C:\Users\{username}\AppData\Roaming switching PCs (highlight the Explorer path and type %appdata%)
