@@ -25,7 +25,7 @@
 [Original BemaniPatcher](https://github.com/mon/BemaniPatcher)
 
 ## Modding DDR
-[arc](https://github.com/mon/ddr_arc_extract)
+[arc](https://github.com/drmext/arc)
 
 [ifs](https://github.com/mon/ifstools)
 
