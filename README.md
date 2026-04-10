@@ -13,7 +13,7 @@
 [Bemanitools 5](https://github.com/djhackersdev/bemanitools)
 
 ## Server Emulation
-[MonkeyBusiness](https://github.com/drmext/MonkeyBusiness)
+[MonkeyBusiness](https://github.com/drmext/MonkeyBusiness) [successor](https://github.com/drmext/xrpc-go)
 
 [Asphyxia](https://github.com/asphyxia-core/core) [+ ddr plugin](https://github.com/22vv0/asphyxia_plugins/tree/mdx) [+ iidx plugin](https://github.com/duel0213/asphyxia-plugins/tree/stable)
 
