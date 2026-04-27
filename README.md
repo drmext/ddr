@@ -25,6 +25,8 @@
 [Original BemaniPatcher](https://github.com/mon/BemaniPatcher)
 
 ## Modding DDR
+[7z extract](https://github.com/drmext/7z-konmai)
+
 [arc](https://github.com/drmext/arc)
 
 [ifs](https://github.com/mon/ifstools)
@@ -56,10 +58,12 @@ this output bgm_menu.xwb should play in game
 ```
 
 ## Modding IIDX
-[mdb](https://github.com/drmext/iidx-datatools)
+[mdb](https://github.com/drmext/iidx-datatools) [notepad++ plugin](https://github.com/drmext/npp-iidx-mdb)
 
 [s3p](https://github.com/mon/s3p_extract)
 
 [omnifix](https://github.com/aixxe/omnifix)
 
 [2dx-gsm](https://github.com/aixxe/2dx-gsm)
+
+[gst](https://github.com/drmext/2dxrender)
