@@ -1,0 +1,26 @@
+https://docs.telosalliance.com/docs/adding-the-loopback-adapter-to-windows-networking
+https://oracledistilled.com/windows/configuring-the-loopback-adapter-on-microsoft-windows/
+
+Installing the Windows networking loopback adapter
+
+    In Windows, open Device Manager.  Click on the Network Adapters group, then select Add legacy hardware from the Action menu [or Run Command Prompt As Administrator and enter hdwwiz.exe to start the Add Hardware Wizard.]
+
+    Click Next on the Welcome to the Add Hardware Wizard
+
+    On the box that asks, "What do you want the wizard to do?", select Install the hardware that I manually select from a list (Advanced) and then click Next
+
+    Scroll down and select Network Adapters from the Common hardware types: and click Next
+
+    From the device driver selection window, select Microsoft from the Manufacturer list and select Microsft KM-TEST Loopback Adapter from the Model list and click Next
+
+    Click Next to begin the installation
+
+    Click Finish to complete the installation
+
+    Now we need to configure the adapter. In the Control Panel open the Network and Sharing Center. Click the Change adapter settings on the left hand side of the panel.
+
+    On the Network Connections screen select Local Area Connection with the type of Microsoft Loopback Adapter. Right click the adapter and select properties. 
+
+    On the Properties pages select Internet Protocol Version 4 (TCP/IPv4) and click the Properties button.
+
+    On the Internet Protocol Version 4 (TCP/IPv4) Properties page enter IP information for an IP address in one of the private address space (10.x.x.x , 172.16.x.x or 192.168.x.x). Care should be taken when choosing your address that it is also not in the same address range as your work or home network settings. [Example, use the following IP address: IP address: 192.168.4.111, Subnet mask: 255.255.255.0, Default gateway: 192.168.4.1]
