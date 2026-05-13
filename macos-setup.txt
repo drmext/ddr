@@ -1,0 +1,29 @@
+brew install --cask whisky
+brew install hidapi libusb (for smx pads)
+Open whisky, install whiskywine
+Create bottle, Windows 10 - Wait for it to finish loading
+Copy data contents (x64 games only)
+spice2x build with icmphook:
+https://github.com/drmext/spice2x.github.io
+spice cfg: 
+    - map buttons with Bind (not Naive)
+    - enable audiohookdisable, icmphook, and w(indowed mode)
+    - set all other settings as usual
+
+
+
+extra notes:
+ensure contents has 64bit com/ folder (GF has 32bit)
+rename/replace the GF 64bit prop and modules to the default paths
+a3 crashes immediately after booting most of the time
+world never crashes
+
+latest spicecfg lags a lot; use an older build before the visual update for setting options except for icmphook
+
+sudo codesign --force --deep --sign - xrpcd
+sudo xattr -d -r com.apple.quarantine xrpcd
+sudo chmod +x xrpcd
+
+ln -s /{path}/A3-GF/contents/data/arc/jacket /{path}/WORLD/contents/data/arc/jacket
+ln -s /{path}/A3-GF/contents/data/mdb_apx/ssq /{path}/WORLD/contents/data/mdb_apx/ssq
+ln -s /{path}/A3-GF/contents/data/sound/win/dance /{path}/WORLD/contents/data/sound/win/dance
