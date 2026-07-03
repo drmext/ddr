@@ -1,4 +1,4 @@
-# DDR/IIDX ARCADE
+# BENAMI ARCADE
 
 ## Decryption
 [drmfs](https://github.com/YoshihikoAbe/eapki)
@@ -13,16 +13,16 @@
 [Bemanitools 5](https://github.com/djhackersdev/bemanitools)
 
 ## Server Emulation
-[MonkeyBusiness](https://github.com/drmext/MonkeyBusiness) [successor](https://github.com/drmext/xrpc-go)
+[MonkeyBusiness](https://github.com/drmext/MonkeyBusiness) [successor (DDRW only)](https://github.com/drmext/xrpc-go)
 
 [Asphyxia](https://github.com/asphyxia-core/core) [+ ddr plugin](https://github.com/22vv0/asphyxia_plugins/tree/mdx) [+ iidx plugin](https://github.com/duel0213/asphyxia-plugins/tree/stable)
 
 [bemaniutils](https://github.com/DragonMinded/bemaniutils)
 
 ## Hex Edit Mod Patches
-[Forbidden BemaniPatcher/sp2xpatcher](https://github.com/drmext/BemaniPatcher/tree/nopr)
+[BemaniPatcher](https://github.com/mon/BemaniPatcher)
 
-[Original BemaniPatcher](https://github.com/mon/BemaniPatcher)
+[sp2xpatcher](https://github.com/eamuse/sp2xpatcher)
 
 ## Modding DDR
 [7z extract](https://github.com/drmext/7z-konmai)
