@@ -3,9 +3,8 @@ brew install hidapi libusb (for smx pads)
 Open whisky, install whiskywine
 Create bottle, Windows 10 - Wait for it to finish loading
 Copy data contents (x64 games only)
-spice cfg: 
-    - map buttons with Bind (not Naive)
-    - enable audiohookdisable, icmphook, and w(indowed mode)
+spice cfg:
+    - enable -audiohookdisable, -icmphook, -nicspoof offline, -w(indowed mode)
     - set all other settings as usual
 
 
@@ -13,7 +12,7 @@ spice cfg:
 extra notes:
 ensure contents has 64bit com/ folder (GF has 32bit)
 rename/replace the GF 64bit prop and modules to the default paths
-world never crashes; a3 crashes immediately after booting >50% of the time
+A3: use pump_guard_64bit.dll from https://github.com/drmext/ddra3-mods to not crash at boot
 
 
 ln -s /{path}/A3-GF/contents/data/arc/jacket /{path}/WORLD/contents/data/arc/jacket

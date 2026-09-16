@@ -19,10 +19,14 @@
 
 [bemaniutils](https://github.com/DragonMinded/bemaniutils)
 
-## Hex Edit Mod Patches
+## Mods Patches Hooks
 [BemaniPatcher](https://github.com/mon/BemaniPatcher)
 
 [sp2xpatcher](https://github.com/eamuse/sp2xpatcher)
+
+[My A3 hook DLL mods](https://github.com/drmext/ddra3-mods)
+
+[skogaby's World modpack](https://github.com/skogaby/ddr-world-universal-modpack)
 
 ## Modding DDR
 [7z extract](https://github.com/drmext/7z-konmai)
@@ -38,6 +42,8 @@
 [ssq](https://github.com/SaxxonPike/scharfrichter)
 
 [ssq](https://github.com/SaxxonPike/RhythmCodex)
+
+[chart tools](https://github.com/skogaby/ddr-chart-tools)
 
 [automate example](https://github.com/drmext/ddr-datatools)
 
