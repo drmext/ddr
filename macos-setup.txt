@@ -1,4 +1,8 @@
 brew install --cask whisky
+(use the original archived whisky and manually extract Libraries; the new frankea fork breaks benami)
+https://web.archive.org/web/20250322035453if_/https://data.getwhisky.app/Wine/Libraries.tar.gz
+tar -xzf Libraries.tar.gz -C ~/Library/Application\ Support/com.isaacmarovitz.Whisky/
+sudo xattr -dr com.apple.quarantine ~/Library/Application\ Support/com.isaacmarovitz.Whisky
 brew install hidapi libusb (for smx pads)
 Open whisky, install whiskywine
 Create bottle, Windows 10 - Wait for it to finish loading

@@ -8,16 +8,16 @@
 [archives](https://github.com/YoshihikoAbe/packagetool)
 
 ## Loader / IO Emulation
-[spice2x](https://github.com/spice2x/spice2x.github.io)
+[spice2x](https://github.com/spice2x/spice2x.github.io) [+ IIDX 9-17](https://github.com/drmext/spice3x)
 
-[Bemanitools 5](https://github.com/djhackersdev/bemanitools)
+[Bemanitools 5 (WARNING: pdf coders and tied to The Piglette Cult)](https://github.com/djhackersdev/bemanitools)
 
 ## Server Emulation
 [MonkeyBusiness](https://github.com/drmext/MonkeyBusiness) [successor (DDRW only)](https://github.com/drmext/xrpc-go)
 
 [Asphyxia](https://github.com/asphyxia-core/core) [+ ddr plugin](https://github.com/22vv0/asphyxia_plugins/tree/mdx) [+ iidx plugin](https://github.com/duel0213/asphyxia-plugins/tree/stable)
 
-[bemaniutils](https://github.com/DragonMinded/bemaniutils)
+[bemaniutils (WARNING: anti-ai psychosis)](https://github.com/DragonMinded/bemaniutils)
 
 ## Mods Patches Hooks
 [BemaniPatcher](https://github.com/mon/BemaniPatcher)
